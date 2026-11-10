@@ -44,16 +44,16 @@ Which news sources dominate the feed, and how does article volume change over ti
 ```
 newsfeed-analysis-powerbi/
 ├── README.md
-├── Newsfeed Analysis.pbix          # Power BI file
-├── Newsfeed Analysis.pdf           # PDF export for quick viewing
-└── Newsfeed Analysis Excel.xlsx    # source data (exported from the .pbix)
+├── Newsfeed Power BI.pbix            # Power BI file
+├── Newsfeed Power BI.pdf             # PDF export for quick viewing
+└── Newfeeed Analysis Excel.xlsx      # source data (exported from the .pbix)
 ```
 
 ## How to view
 
-- **No Power BI?** Open [Newsfeed Analysis.pdf](Newsfeed%20Analysis.pdf).
-- **Want the data?** Download [Newsfeed Analysis Excel.xlsx](Newsfeed%20Analysis%20Excel.xlsx).
-- **With Power BI Desktop** (free, Windows): download [Newsfeed Analysis.pbix](Newsfeed%20Analysis.pbix) and open it — the data loads with it.
+- **No Power BI?** Open [Newsfeed Power BI.pdf](Newsfeed%20Power%20BI.pdf).
+- **Want the data?** Download [Newfeeed Analysis Excel.xlsx](Newfeeed%20Analysis%20Excel.xlsx).
+- **With Power BI Desktop** (free, Windows): download [Newsfeed Power BI.pbix](Newsfeed%20Power%20BI.pbix) and open it — the data loads with it.
 
 ## Tools
 
