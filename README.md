@@ -46,13 +46,13 @@ newsfeed-analysis-powerbi/
 ├── README.md
 ├── Newsfeed Power BI.pbix            # Power BI file
 ├── Newsfeed Power BI.pdf             # PDF export for quick viewing
-└── Newfeeed Analysis Excel.xlsx      # source data (exported from the .pbix)
+└── Newsfeed Analysis Excel.xlsx      # source data (exported from the .pbix)
 ```
 
 ## How to view
 
 - **No Power BI?** Open [Newsfeed Power BI.pdf](Newsfeed%20Power%20BI.pdf).
-- **Want the data?** Download [Newfeeed Analysis Excel.xlsx](Newfeeed%20Analysis%20Excel.xlsx).
+- **Want the data?** Download [Newsfeed Analysis Excel.xlsx](Newsfeed%20Analysis%20Excel.xlsx).
 - **With Power BI Desktop** (free, Windows): download [Newsfeed Power BI.pbix](Newsfeed%20Power%20BI.pbix) and open it — the data loads with it.
 
 ## Tools
