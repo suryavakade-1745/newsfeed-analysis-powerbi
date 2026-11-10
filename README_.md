@@ -2,9 +2,8 @@
 
 A Power BI dashboard that analyses newsfeed data to show which sources dominate coverage and how publishing volume trends over time, supporting data-driven media decisions.
 
-![Newsfeed Analysis dashboard](images/dashboard.png)
+<img width="482" height="274" alt="Screenshot 2026-11-10 180531" src="https://github.com/user-attachments/assets/bdfa04a2-7f3b-40d0-9db8-346bb267b15c" />
 
----
 
 ## Business question
 
@@ -20,17 +19,16 @@ Which news sources dominate the feed, and how does article volume change over ti
 
 | Item | Detail |
 |---|---|
-| Source | <!-- TODO: e.g. "NewsAPI.org JSON response" --> |
-| Period | July – August 2024 |
+| Source | Newsfeed dataset of news articles (July – August 2024) |
 | Grain | One row per article |
-| Main fields | `title`, `url`, `urlToImage`, `publishedAt`, `source.name` |
+| Main fields | Title, URL, Image URL, Published At, Source Name |
 
 ## Approach
 
 1. **Load** – imported the newsfeed data into Power BI Desktop.
 2. **Transform (Power Query)** – expanded the nested article records into columns, set data types, and created a published-date column plus a sort-order column so dates display in the right order.
 3. **DAX measures** – built dynamic measures for article count and percentage share by source.
-4. **Visualise** – built the report page below.
+4. **Visualise** – built the report page shown above.
 
 | Visual | What it answers |
 |---|---|
@@ -41,32 +39,21 @@ Which news sources dominate the feed, and how does article volume change over ti
 | Line – Articles by source | Ranking of sources by volume |
 | Pie – Share by source | Each source's % of total coverage |
 
-## DAX measures
-
-<!-- TODO: paste your measures from the .pbix here (Modeling → select measure → copy formula) -->
-```DAX
--- Total Articles = ...
--- % Share by Source = ...
-```
-
 ## Repository contents
 
 ```
 newsfeed-analysis-powerbi/
 ├── README.md
-├── dashboard/
-│   ├── newsfeed-analysis.pbix    # Power BI file
-│   └── newsfeed-analysis.pdf     # PDF export for quick viewing
-├── data/
-│   └── newsfeed-data.json        # source data (or .csv)
-└── images/
-    └── dashboard.png             # screenshot used above
+├── Newsfeed Analysis.pbix          # Power BI file
+├── Newsfeed Analysis.pdf           # PDF export for quick viewing
+└── Newsfeed Analysis Excel.xlsx    # source data (exported from the .pbix)
 ```
 
 ## How to view
 
-- **No Power BI?** Open `dashboard/newsfeed-analysis.pdf`.
-- **With Power BI Desktop** (free, Windows): download the `.pbix` file and open it. If prompted, point the data source to the file in `data/`.
+- **No Power BI?** Open [Newsfeed Analysis.pdf](Newsfeed%20Analysis.pdf).
+- **Want the data?** Download [Newsfeed Analysis Excel.xlsx](Newsfeed%20Analysis%20Excel.xlsx).
+- **With Power BI Desktop** (free, Windows): download [Newsfeed Analysis.pbix](Newsfeed%20Analysis.pbix) and open it — the data loads with it.
 
 ## Tools
 
