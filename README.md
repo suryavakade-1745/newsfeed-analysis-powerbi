@@ -2,7 +2,7 @@
 
 A Power BI dashboard that analyses newsfeed data to show which sources dominate coverage and how publishing volume trends over time, supporting data-driven media decisions.
 
-<img width="482" height="274" alt="Screenshot 2026-11-10 180531" src="https://github.com/user-attachments/assets/bdfa04a2-7f3b-40d0-9db8-346bb267b15c" />
+<img width="100%" alt="Newsfeed Analysis dashboard" src="https://github.com/user-attachments/assets/bdfa04a2-7f3b-40d0-9db8-346bb267b15c" />
 
 
 ## Business question
